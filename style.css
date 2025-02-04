@@ -1,5 +1,7 @@
 
-
+body {
+    background-color: rgb(100, 202, 236);
+}
 #calculadora {
     width: 300px;
     margin: 0 auto;
