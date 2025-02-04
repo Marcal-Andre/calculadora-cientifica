@@ -1,0 +1,35 @@
+#calculadora {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dfdfdf;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+   
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 19px;
+  }
